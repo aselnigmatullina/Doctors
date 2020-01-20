@@ -1,0 +1,71 @@
+//main: ../style.less
+
+
+.task{
+    margin-left: 150px;
+    span{
+        text-align: center;
+        font-size: 2rem;
+        color: red;
+    }
+    a{
+        text-align      : center;
+        list-style-type : none;
+        color           : @white;
+        // border: 1px solid @gray;
+        text-transform  : none;
+        display         : inline-block;
+        padding         : 0px 30px;
+        border-radius   : 20px;
+        background-color: red;
+        margin          : 0 auto;
+        text-decoration: none;
+
+       
+     
+
+
+        
+        &:hover{
+            background-color: @white;
+            color: red;
+        }
+
+    }
+}
+.taskText{
+    font-size    : 2rem;
+    text-align   : center;
+    border-bottom: 1px solid @white;  
+
+    p{
+        font-size    : 1rem;
+        border       : 1px solid @white;
+        border-bottom: 1px solid black;
+        background-color: fade(@black, 70%);
+    }
+}
+.modalClose{
+    position  : absolute;
+    top       : 0.9rem;
+    right     : 0.9rem;
+    z-index   : 1;
+    height    : 35px;
+    width     : 35px;
+    background: none;
+    padding   : 0;
+    border    : 0;
+    cursor    : pointer;
+    transition: transform .2s linear;
+
+    &:hover{
+      transform: translateY(10px);;
+  }
+}
+.taskDialog{
+    border: 1px solid @gray;
+}
+.doctorImage{
+    margin-top: 150px;
+    border-top: 1px solid red;
+}

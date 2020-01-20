@@ -1,0 +1,91 @@
+//main: ../style.less
+
+.stained-glass{
+    position  : relative;
+    width     : 900px   ;
+    height    : 600px   ;
+    margin    : 0 auto  ;
+    
+
+
+}
+.stained-glass_first{
+    --image: url('./../../images/image.jpg');
+}
+
+.stained-glass__part{
+    position        : absolute;
+    box-sizing      : 0 0 25px rgba(0,0,0,0.9);
+    background-image: var(--image);
+    background-size : 900px 600px;
+    background-color: #ccc;
+    transition      : all 1s;
+
+    &:hover{
+    transform: scale(1.1);
+    }
+    &:nth-child(1){
+        width  : 200px;
+        height : 300px;
+        top    : 150px;
+        z-index: 2    ;
+        background-position: 0 -150px;
+
+    }
+    &:nth-child(2){
+        width  : 400px;
+        height : 450px;
+        top    : 80px ;
+        left   : 100px;
+        z-index: 1    ;
+        background-position: -100px -80px;
+        border-bottom: 4px solid red;
+        border-top: 4px solid red;
+
+
+    }
+    &:nth-child(3){
+        width  : 400px;
+        height : 600px;
+        left   : 375px;
+        z-index: 3    ;
+        background-position: -375px 0;
+    }
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    font-size      : 2rem  ;
+    text-decoration: none  ;
+    color          : red ;
+    font-weight    : 700   ;
+    margin-top     : 10px  ;
+    text-align     : center;
+    margin-left    : -150px;
+
+}
+.contact__socials{
+     li{
+        list-style-type: none;
+        text-align: center;
+        text-transform: none;
+
+        a{
+            color: @white;
+            display: flex;
+            height: 60px;
+            width: 60px;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            border-radius: 50%;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+
+

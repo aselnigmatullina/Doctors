@@ -1,0 +1,25 @@
+//main: ../style.less
+.main{
+    background: url('../images/1.jpeg');
+    background-size: inherit;
+    border: 1px solid @white;
+
+    @media @mobile {
+       background: none;
+       border    : none;
+    }
+}
+.main__text{
+    text-align : center              ;
+    color      : @white              ;
+    font-size  : 6rem                ;
+    // font-family: 'Sacramento', cursive;
+    font-family: 'Tangerine', cursive;
+    // font-family: 'Scheherazade', serif;
+    opacity    : .7                  ;
+
+    @media @mobile{
+        text-align: center;
+        font-size : 4rem;
+    }
+}  

@@ -1,0 +1,38 @@
+//main: ../style.less
+
+.location{
+    display: flex;
+
+}
+.location__logo{
+    @media @tablet{
+        display: block;
+    }
+
+
+    img{
+        width        : 40px;
+        height       : 40px;
+        border-radius: 20% ;
+
+        // border       : 1px solid @black;
+    }
+}
+.location__content{
+    padding-left: 9px;
+
+
+}
+.location__prof{
+    font-size: .8rem;
+    color: fade(@white, 70%);
+}
+.location__name{
+    font-size  : 2rem;
+    color      : @white ;
+    font-weight: 700    ;
+    line-height: 1.2;
+    margin-top : 10px;
+
+
+}

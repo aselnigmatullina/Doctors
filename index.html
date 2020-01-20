@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento|Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento|Scheherazade|Tangerine&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="header">
+         <div class="container">
+             <div class="header__inner">
+                 <div class="location">
+                     <div class="location__logo"><img src="images/9.webp"></div>
+                         <div class="location__content">
+                             <div class="location__name">For Hospitals</div>
+                             <div class="location__prof">IT-company</div>
+                         </div>
+                 </div>
+                 <nav class="nav">
+                     <a class="nav__link modalOpen" href="#">DEVELOPER</a>                     
+                     <a class="nav__link modalWithTaskOpen" href="#">TASK</a>
+                     <a class="nav__link modalContactsOpen" href="#">CONTACT</a>
+                     <a class="nav__link active" href="https://github.com/aselnigmatullina?tab=repositories">WORKS</a>
+
+
+                 </nav>
+                 <div class="menu">
+                     <img src="images/menu.png" alt="">
+                 </div>
+             </div>
+         </div>
+     </header>
+    <section class="main">
+         <div class="container">
+    <div class="buttons">
+        <div class="center">
+        <button class="addTable">table</button>
+        <button class="deleteTable">delete</button>
+        </div>
+        </div>
+        <div id="elem"></div>
+         </div>
+         <div class="main__quote">
+            <h1 class="main__text">Good health is above.</h1>
+         </div>
+    </section>
+    <div class="information">
+
+        <div class="information__container">
+
+            <div class="information__box">
+                <div class="information__content">
+                <h2>01</h2>
+                <h3>Experienced doctors</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur mollitia vel, voluptas at impedit harum laboriosam, laborum dolor sapiente ea quae aliquam ad beatae fugiat sed modi assumenda corrupti magnam!</p>
+                <button>Show more</button>
+            </div>
+        </div>
+
+                <div class="information__box">
+                  <div class="information__content">
+                    <h2>02</h2>
+                    <h3>Hospitals</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur mollitia vel, voluptas at impedit harum laboriosam, laborum dolor sapiente ea quae aliquam ad beatae fugiat sed modi assumenda corrupti magnam!</p>
+                    <button>Show more</button>
+                </div>
+            </div>
+                    <div class="information__box">
+                        <div class="information__content">
+                        <h2>03</h2>
+                        <h3>Top equipments</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur mollitia vel, voluptas at impedit harum laboriosam, laborum dolor sapiente ea quae aliquam ad beatae fugiat sed modi assumenda corrupti magnam!</p>
+                        <button>Show more</button>
+                    </div>
+                  </div>
+                </div>
+
+    </div>
+    <div class="social">
+        <ul class="social__container">
+           <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+           <li><a href="https://github.com/aselnigmatullina?tab=repositories"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+       <h1 class="footer__text">contact us</h1>
+    </footer>
+    <div class="modal" style="display: none;">
+        <div class="modal__dialog">
+            <button class="modal__close" type="button">
+                <img src="images/close.png" alt="" width="35">
+            </button>
+            <div class="modal-work">
+                <div class="modal-work__preview">
+                    <img class="modal-work__photo" src="images/20.jpg" width="500">
+                </div>
+                <div class="modal-work__content">
+                    <div class="modal-work__title">
+                        <h1> Asel Nigmatullina </h1> <br>
+                       <span>Front-end Developer</span>
+                       <p>HTML <br> CSS <br> JavaScript <br> React + Redux <br> Less, Bootstrap, git <br> Webpack </p>
+                       <br>
+                       <br>
+                       <br>
+                       <br>
+                       <span>nigmatullina.asel2016@yandex.ru</span>
+                       <span>+79033408147 </span>
+                    </div>
+                    <ul class="modal-work__socials">
+                        <li>
+                            <a href="https://vk.com/id310460369"><i class="fa fa-vk"></i></a>
+                            <a href="https://www.instagram.com/asel97n/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://github.com/aselnigmatullina"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+    </div>
+    <div class="modal modalWithTask" style="display: none;">
+        <div class="modal__dialog taskDialog">
+            <button class="modalClose" type="button">
+                <img src="images/close.png" alt="" width="35">
+            </button>
+            <div class="modal-work">
+                    <div class="modal-work__content taskText">Task <br>
+                        <p>
+                        It is required to create a CRUD application, that allows you to edit file data in a browser in a user-friendly way</p>
+                    </div>
+                    <div class="modal-work__preview task">
+                      <span>Table</span>
+                      <img src="images/table.png" alt="" width="600">
+                      <a href="#"><p>GO</p</a>
+                    </div>
+                    <div class="doctorImage"><img src="images/1.webp" alt="" width="400"></div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class=" modal modalContacts" style="display: none;">
+        <div class="modal__dialog dialogContacts">
+            <button class="modal__close contactClose" type="button">
+                <img src="images/close.png" alt="" width="35">
+            </button>
+            <div class="modal-work">
+                <div class="modal-work__preview">       
+                    <div class="stained-glass stained-glass_first">
+                        <div class="stained-glass__part"></div>
+                        <div class="stained-glass__part"></div>
+                        <div class="stained-glass__part"></div>
+                </div>
+                </div>
+                <div class="modal-work__content">              
+                  <div class="contact">Contacts</div>
+                  <ul class="contact__socials">
+                    <li>
+                        <a href="https://vk.com/id310460369"><i class="fa fa-vk"></i></a>
+                        <a href="https://www.instagram.com/asel97n/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://github.com/aselnigmatullina"><i class="fa fa-github"></i></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+    </div>
+    </div>
+    <script src="scripts/contactModals.js"></script>
+    <script src="scripts/modals.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

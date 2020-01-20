@@ -1,0 +1,65 @@
+//compress:true
+
+@import "vars";
+
+
+
+
+html{
+    font-size  : 15px;
+    font-family: 'Cinzel', serif;
+
+}
+
+body{
+    margin     : 0              ;
+    font-size  : 1rem           ;
+    color      : @black         ;
+    font-family: 'Cinzel', serif;
+    background : url('../images/1.jpeg');
+    background-size: cover      ;
+
+
+    &.no-scroll{
+        overflow: hidden;
+    }
+}
+
+td, th{
+    border: 1px solid black;
+    width : 400px            ;
+    height: 100px            ;
+    background-color: #fff ;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+// blocks
+@import "blocks/container"  ;
+@import "blocks/header"     ;
+@import "blocks/location"   ;
+@import "blocks/nav"        ;
+@import "buttons/deleteBtn" ;
+@import "blocks/main"       ;
+@import "blocks/information";
+@import "blocks/social"     ;
+@import "blocks/modal"      ;
+@import "blocks/aboutme"    ;
+@import "blocks/footer"     ;
+@import "blocks/modalForTask";
+@import "blocks/createTable";
+@import "blocks/menu";
+@import "blocks/modalContacts";
+
+
+
+
+
+
+
+
+
